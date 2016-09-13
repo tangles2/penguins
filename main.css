@@ -1,0 +1,138 @@
+body {
+    background-color: #ccf5f5;
+}
+
+#gameholder {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title {
+    width: 600px;
+    height: 150px;
+    background-image: url('penguin_pngs/penguin_title.png')
+}
+
+div[class^="penguins"],
+.yeti {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+div[class^="penguins"]: hover,
+.yeti:hover {
+    cursor: pointer;
+}
+
+.penguins1:hover {
+    background-image: url('penguin_pngs/mound_1_hover.png');
+    cursor: pointer;
+}
+
+.penguins2:hover {
+    background-image: url('penguin_pngs/mound_2_hover.png');
+}
+
+.penguins3:hover {
+    background-image: url('penguin_pngs/mound_3_hover.png');
+}
+
+.penguins4:hover {
+    background-image: url('penguin_pngs/mound_4_hover.png');
+}
+
+.penguins5:hover {
+    background-image: url('penguin_pngs/mound_5_hover.png');
+}
+
+.penguins6:hover {
+    background-image: url('penguin_pngs/mound_6_hover.png');
+}
+
+.penguins7:hover {
+    background-image: url('penguin_pngs/mound_7_hover.png');
+}
+
+.penguins8:hover {
+    background-image: url('penguin_pngs/mound_8_hover.png');
+}
+
+.yeti:hover {
+    background-image: url('penguin_pngs/mound_9_hover.png');
+}
+
+.penguins1 {
+    background-image: url('penguin_pngs/mound_1.png');
+    cursor: pointer;
+}
+
+.penguins2 {
+    background-image: url('penguin_pngs/mound_2.png');
+}
+
+.penguins3 {
+    background-image: url('penguin_pngs/mound_3.png');
+}
+
+.penguins4 {
+    background-image: url('penguin_pngs/mound_4.png');
+}
+
+.penguins5 {
+    background-image: url('penguin_pngs/mound_5.png');
+}
+
+.penguins6 {
+    background-image: url('penguin_pngs/mound_6.png');
+}
+
+.penguins7 {
+    background-image: url('penguin_pngs/mound_7.png');
+}
+
+.penguins8 {
+    background-image: url('penguin_pngs/mound_8.png');
+}
+
+.yeti {
+    background-image: url('penguin_pngs/mound_9.png');
+}
+
+.penguins1:active {
+    background-image: url('penguin_pngs/penguin_1.png');
+    cursor: pointer;
+}
+
+.penguins2:active {
+    background-image: url('penguin_pngs/penguin_2.png');
+}
+
+.penguins3:active {
+    background-image: url('penguin_pngs/penguin_3.png');
+}
+
+.penguins4:active {
+    background-image: url('penguin_pngs/penguin_4.png');
+}
+
+.penguins5:active {
+    background-image: url('penguin_pngs/penguin_5.png');
+}
+
+.penguins6:active {
+    background-image: url('penguin_pngs/penguin_6.png');
+}
+
+.penguins7:active {
+    background-image: url('penguin_pngs/penguin_7.png');
+}
+
+.penguins8:active {
+    background-image: url('penguin_pngs/penguin_8.png');
+}
+
+.yeti:active {
+    background-image: url('penguin_pngs/yeti.png');
+}
